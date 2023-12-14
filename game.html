@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./cobra-clipart-snake-egyptian-6.png">
+</head>
+<body>
+  <img src="./download.jpeg" alt="">
+  <h1 class="heading">SNAKE <span>GAME</span></h1>
+  <div class="game-container">
+      <canvas id="snakeCanvas"></canvas>
+    <div id="score">Score: <span id="scoreValue">0</span></div>
+    <button id="startButton">Start Game</button>
+    <div id="gameOverModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="gameOverText">Game Over</p>
+        <button id="restartButton">Click F5 for Refresh</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
